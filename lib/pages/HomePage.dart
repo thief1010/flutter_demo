@@ -13,7 +13,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-
+      body: Center(
+        child: Text('首页'),
+      ),
     );
   }
 

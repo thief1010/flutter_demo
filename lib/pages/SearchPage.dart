@@ -13,7 +13,9 @@ class _SearchPageState extends State<SearchPage> {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-
+      body: Center(
+        child: Text('分类'),
+      ),
     );
   }
 

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xc_flutter_app/navigator/tab_navigator.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: '携程'),
+      home: TabNavigator(),
     );
   }
 }
